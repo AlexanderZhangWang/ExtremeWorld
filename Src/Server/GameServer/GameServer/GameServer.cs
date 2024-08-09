@@ -19,6 +19,7 @@ namespace GameServer
         Thread thread;
         bool running = false;
         NetService network;
+
         public bool Init()
         {
             network = new NetService();
@@ -26,6 +27,7 @@ namespace GameServer
             DBService.Instance.Init();
             UserService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
+
             return true;
         }
 

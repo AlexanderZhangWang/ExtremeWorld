@@ -1,42 +1,100 @@
-2024-08-08 13:44:29,925 [ 1] INFO  Unity: LoadingManager start
-2024-08-08 13:44:45,295 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Services.UserService..ctor () (at Assets/Scripts/Services/UserService.cs:21)
-System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:513)
-Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
-System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:519)
-System.Reflection.MonoCMethod.Invoke (BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:528)
-System.Reflection.ConstructorInfo.Invoke (System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/ConstructorInfo.cs:77)
-System.Activator.CreateInstance (System.Type type, Boolean nonPublic) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:372)
-System.Activator.CreateInstance (System.Type type) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:254)
-System.Activator.CreateInstance[UserService] () (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:248)
-Singleton`1[Services.UserService].get_Instance () (at Assets/Scripts/Utilities/Singleton.cs:17)
-UIRegister.OnClickRegister () (at Assets/Scripts/UI/UIRegister.cs:43)
-UnityEngine.Events.InvokableCall.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent.cs:166)
-UnityEngine.Events.UnityEvent.Invoke () (at C:/buildslave/unity/build/Runtime/Export/UnityEvent_0.cs:58)
-UnityEngine.UI.Button.Press () (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:36)
-UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/UI/Core/Button.cs:45)
-UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:50)
-UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) (at C:/buildslave/unity/build/Extensions/guisystem/UnityEngine.UI/EventSystem/ExecuteEvents.cs:261)
-UnityEngine.EventSystems.EventSystem:Update()
-}</args></log4net.Error>
-2024-08-08 13:48:31,889 [ 1] WARN  Unity: A meta data file (.meta) exists but its asset 'Assets/Scripts/Entities' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+2024-08-08 14:14:15,219 [ 1] INFO  Unity: LoadingManager start
+2024-08-08 14:14:30,581 [ 1] INFO  Unity: UserRegisterRequest::user :user001 psw:123
+2024-08-08 14:14:30,591 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-08 14:14:30,591 [ 1] INFO  Unity: DoConnect
+2024-08-08 14:14:30,593 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-08 14:14:30,593 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-08-08 13:48:31,890 [ 1] WARN  Unity: A meta data file (.meta) exists but its asset 'Assets/Scripts/GameObject' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+2024-08-08 14:14:30,597 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-08 14:14:32,777 [ 1] INFO  Unity: OnUserRegister:Failed [?????.]
+2024-08-08 14:14:40,182 [ 1] INFO  Unity: UserRegisterRequest::user :user001 psw:123
+2024-08-08 14:14:40,199 [ 1] INFO  Unity: OnUserRegister:Failed [?????.]
+2024-08-08 14:14:42,180 [ 1] INFO  Unity: UserRegisterRequest::user :user001 psw:123
+2024-08-08 14:14:42,195 [ 1] INFO  Unity: OnUserRegister:Failed [?????.]
+2024-08-08 14:14:42,377 [ 1] INFO  Unity: UserRegisterRequest::user :user001 psw:123
+2024-08-08 14:14:42,393 [ 1] INFO  Unity: OnUserRegister:Failed [?????.]
+2024-08-08 14:14:42,656 [ 1] INFO  Unity: UserRegisterRequest::user :user001 psw:123
+2024-08-08 14:14:42,673 [ 1] INFO  Unity: OnUserRegister:Failed [?????.]
+2024-08-08 14:14:58,103 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.
 
-2024-08-08 13:48:31,890 [ 1] WARN  Unity: A meta data file (.meta) exists but its asset 'Assets/Scripts/Managers' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00084] in C:\ExtremeWorld\mymmorpg\Src\Client\Assets\Scripts\Network\NetClient.cs:340 
 
-2024-08-08 13:48:31,890 [ 1] WARN  Unity: A meta data file (.meta) exists but its asset 'Assets/Scripts/Models' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+2024-08-08 14:14:58,104 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:354)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:434)
 
-2024-08-08 13:48:31,930 [ 1] WARN  Unity: Removing Assets/Scripts/Entities because the asset does not exist
+2024-08-08 14:14:58,113 [ 1] INFO  Unity: DoConnect
+2024-08-08 14:14:58,114 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-08 14:14:58,115 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-08-08 13:48:31,930 [ 1] WARN  Unity: Removing Assets/Scripts/GameObject because the asset does not exist
+2024-08-08 14:15:00,172 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
 
-2024-08-08 13:48:31,930 [ 1] WARN  Unity: Removing Assets/Scripts/Managers because the asset does not exist
+2024-08-08 14:15:00,173 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
 
-2024-08-08 13:48:31,930 [ 1] WARN  Unity: Removing Assets/Scripts/Models because the asset does not exist
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
 
-2024-08-08 13:49:02,189 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-08 13:49:02,191 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-08 14:15:00,212 [ 1] INFO  Unity: DoConnect
+2024-08-08 14:15:00,213 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-08 14:15:00,213 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2024-08-08 14:15:02,256 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-08 14:15:02,257 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-08 14:15:02,276 [ 1] INFO  Unity: DoConnect
+2024-08-08 14:15:02,276 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-08 14:15:02,277 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2024-08-08 14:15:04,329 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-08 14:15:04,329 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-08 14:15:04,329 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2024-08-08 14:23:53,003 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-08 14:23:53,003 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
