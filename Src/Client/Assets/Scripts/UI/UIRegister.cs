@@ -12,8 +12,19 @@ public class UIRegister : MonoBehaviour {
     public InputField password;
     public InputField passwordConfirm;
     public Button buttonRegister;
-
     public GameObject uiLogin;
+
+    public Text regUsername;
+    public Text regPass;
+    public InputField loginUsername;
+    public InputField loginPass;
+
+    public void SynchronizeStrings()
+    {
+        loginUsername.text = regUsername.text;
+        loginPass.text = regPass.text;
+    }
+
     // Use this for initialization
     void Start () {
         UserService.Instance.OnRegister = OnRegister;

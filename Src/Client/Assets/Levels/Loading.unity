@@ -672,6 +672,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1634593567}
+        m_MethodName: SynchronizeStrings
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &188048800
@@ -797,6 +808,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1634593565}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1874470915}
+        m_MethodName: SynchronizeStrings
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3137,6 +3159,10 @@ MonoBehaviour:
   passwordConfirm: {fileID: 1462705151}
   buttonRegister: {fileID: 1713304860}
   uiLogin: {fileID: 0}
+  regUsername: {fileID: 1689348146}
+  regPass: {fileID: 1183351337}
+  loginUsername: {fileID: 1006987164}
+  loginPass: {fileID: 1852863938}
 --- !u!1 &1689348144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3980,6 +4006,10 @@ MonoBehaviour:
   password: {fileID: 1852863938}
   buttonLogin: {fileID: 1618098686}
   buttonRegister: {fileID: 0}
+  loginUsername: {fileID: 1808317685}
+  loginPass: {fileID: 294073902}
+  regUsername: {fileID: 1982387667}
+  regPass: {fileID: 1265525333}
 --- !u!1 &1946861424
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,17 @@ public class UILogin : MonoBehaviour {
     public Button buttonLogin;
     public Button buttonRegister;
 
+    public Text loginUsername;
+    public Text loginPass;
+    public InputField regUsername;
+    public InputField regPass;
+
+    public void SynchronizeStrings()
+    {
+        regUsername.text = loginUsername.text;
+        regPass.text = loginPass.text;
+    }
+
     // Use this for initialization
     void Start () {
         UserService.Instance.OnLogin = OnLogin;
