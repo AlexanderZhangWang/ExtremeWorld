@@ -1,16 +1,10 @@
-2024-08-09 15:02:16,091 [ 1] INFO  Unity: LoadingManager start
-2024-08-09 15:02:31,249 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-09 15:02:31,251 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-09 15:02:31,252 [ 1] INFO  Unity: DoConnect
-2024-08-09 15:02:31,253 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-09 15:02:31,254 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2024-08-09 15:02:31,256 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-09 15:02:31,336 [ 1] INFO  Unity: OnLogin:Success [None]
-2024-08-09 15:02:31,350 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-08-09 15:02:31,545 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-09 15:02:39,185 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-09 15:02:39,197 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-13 11:07:00,924 [ 1] INFO  Unity: LoadingManager start
+2024-08-13 11:07:04,192 [ 1] INFO  Unity: start of datamanager
+2024-08-13 11:07:04,198 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-13 11:07:04,561 [ 1] INFO  Unity: end of datamanager
+2024-08-13 11:07:04,562 [ 1] INFO  Unity: start of userservice
+2024-08-13 11:07:47,141 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-13 11:07:47,142 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

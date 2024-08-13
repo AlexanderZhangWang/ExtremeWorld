@@ -27,15 +27,19 @@ public class DataManager : Singleton<DataManager>
 
     public void Load()
     {
+        Debug.Log("start load mapDefine");
         string json = File.ReadAllText(this.DataPath + "MapDefine.txt");
         this.Maps = JsonConvert.DeserializeObject<Dictionary<int, MapDefine>>(json);
 
+        Debug.Log("start load characterDefine");
         json = File.ReadAllText(this.DataPath + "CharacterDefine.txt");
         this.Characters = JsonConvert.DeserializeObject<Dictionary<int, CharacterDefine>>(json);
 
+        Debug.Log("start load teleporterDefine");
         json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
         this.Teleporters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
 
+        Debug.Log("start load spawnPointDefine");
         json = File.ReadAllText(this.DataPath + "SpawnPointDefine.txt");
         this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>> (json);
     }
@@ -43,25 +47,30 @@ public class DataManager : Singleton<DataManager>
 
     public IEnumerator LoadData()
     {
+        //Debug.Log("start load mapDefine");
         string json = File.ReadAllText(this.DataPath + "MapDefine.txt");
         this.Maps = JsonConvert.DeserializeObject<Dictionary<int, MapDefine>>(json);
 
         yield return null;
 
+        //Debug.Log("start load characterDefine");
         json = File.ReadAllText(this.DataPath + "CharacterDefine.txt");
         this.Characters = JsonConvert.DeserializeObject<Dictionary<int, CharacterDefine>>(json);
 
         yield return null;
 
+        //Debug.Log("start load teleporterDefine");
         json = File.ReadAllText(this.DataPath + "TeleporterDefine.txt");
         this.Teleporters = JsonConvert.DeserializeObject<Dictionary<int, TeleporterDefine>>(json);
 
         yield return null;
 
-        json = File.ReadAllText(this.DataPath + "SpawnPointDefine.txt");
-        this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>>(json);
+        //Debug.Log("start load spawnPointDefine");
+        //json = File.ReadAllText(this.DataPath + "SpawnPointDefine.txt");
+        //this.SpawnPoints = JsonConvert.DeserializeObject<Dictionary<int, Dictionary<int, SpawnPointDefine>>>(json);
 
-        yield return null;
+        //yield return null;
+        Debug.Log("end of datamanager");
     }
 
 #if UNITY_EDITOR
