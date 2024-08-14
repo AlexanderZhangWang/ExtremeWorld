@@ -34,12 +34,10 @@ public class LoadingManager : MonoBehaviour {
         yield return new WaitForSeconds(1f);
         UITips.SetActive(false);
 
-        Debug.Log("start of datamanager");
         yield return DataManager.Instance.LoadData();
 
         //Init basic services
         //MapService.Instance.Init();
-        Debug.Log("start of userservice");
         UserService.Instance.Init();
 
 
