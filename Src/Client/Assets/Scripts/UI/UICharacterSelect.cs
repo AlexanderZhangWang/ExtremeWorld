@@ -122,7 +122,7 @@ public class UICharacterSelect : MonoBehaviour {
     {
         if (this.selectCharacterIdx >= 0)
         {
-            MessageBox.Show("进入游戏", "进入游戏", MessageBoxType.Confirm);
+            UserService.Instance.SendGameEnter(selectCharacterIdx);
         }
     }
     public void OnClickCreate()
@@ -137,4 +137,5 @@ public class UICharacterSelect : MonoBehaviour {
 	void Update () {
 		
 	}
+    
 }

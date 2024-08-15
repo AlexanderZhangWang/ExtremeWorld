@@ -1,21 +1,26 @@
-2024-08-14 15:26:14,359 [ 1] INFO  Unity: LoadingManager start
-2024-08-14 15:26:17,421 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-14 15:26:26,701 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-14 15:26:26,702 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-14 15:26:26,703 [ 1] INFO  Unity: DoConnect
-2024-08-14 15:26:26,704 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-14 15:26:26,706 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-14 16:41:39,307 [ 1] INFO  Unity: LoadingManager start
+2024-08-14 16:41:42,386 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-14 16:41:47,649 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
+2024-08-14 16:41:47,649 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-14 16:41:47,651 [ 1] INFO  Unity: DoConnect
+2024-08-14 16:41:47,652 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-14 16:41:47,653 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-08-14 15:26:26,709 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-14 15:26:29,081 [ 1] INFO  Unity: OnLogin:Success [None]
-2024-08-14 15:26:29,091 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-08-14 15:26:29,254 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-14 15:26:29,259 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UICharacterSelect.InitCharacterSelect (Boolean init) (at Assets/Scripts/UI/UICharacterSelect.cs:59)
-UICharacterSelect.Start () (at Assets/Scripts/UI/UICharacterSelect.cs:35)
-}</args></log4net.Error>
-2024-08-14 15:26:44,713 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-14 15:26:44,715 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-14 16:41:47,656 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-14 16:41:47,721 [ 1] INFO  Unity: OnLogin:Success [None]
+2024-08-14 16:41:47,737 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-14 16:41:47,872 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-14 16:41:53,870 [ 1] INFO  Unity: Select Char:[1]?[Warrior]
+2024-08-14 16:41:56,359 [ 1] INFO  Unity: Select Char:[2]??[Warrior]
+2024-08-14 16:41:56,944 [ 1] INFO  Unity: Select Char:[3]??[Warrior]
+2024-08-14 16:41:57,330 [ 1] INFO  Unity: Select Char:[4]???[Archer]
+2024-08-14 16:41:58,195 [ 1] INFO  Unity: Select Char:[1]?[Warrior]
+2024-08-14 16:42:00,089 [ 1] INFO  Unity: Select Char:[4]???[Archer]
+2024-08-14 16:42:16,151 [ 1] INFO  Unity: Select Char:[4]???[Archer]
+2024-08-14 16:42:18,019 [ 1] INFO  Unity: Select Char:[2]??[Warrior]
+2024-08-14 16:42:18,339 [ 1] INFO  Unity: Select Char:[3]??[Warrior]
+2024-08-14 16:42:19,980 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-14 16:42:19,980 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
