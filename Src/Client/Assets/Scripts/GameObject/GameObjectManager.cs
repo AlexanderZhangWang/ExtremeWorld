@@ -4,7 +4,6 @@ using UnityEngine;
 
 using Entities;
 using Services;
-using SkillBridge.Message;
 
 public class GameObjectManager : MonoBehaviour
 {
@@ -81,7 +80,8 @@ public class GameObjectManager : MonoBehaviour
                     pc.enabled = false;
                 }
             }
-            //UIWorldElementManager.Instance.AddCharacterNameBar(go.transform, character);
+
+            UIWorldElementManager.Instance.AddCharacterNameBar(go.transform, character);
         }
     }
 }

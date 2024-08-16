@@ -1,92 +1,129 @@
-2024-08-15 09:46:22,423 [ 1] INFO  Unity: LoadingManager start
-2024-08-15 09:46:25,466 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-15 09:46:33,950 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-15 09:46:33,952 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-15 09:46:33,953 [ 1] INFO  Unity: DoConnect
-2024-08-15 09:46:33,954 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-15 09:46:33,955 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-15 14:50:15,884 [ 1] INFO  Unity: LoadingManager start
+2024-08-15 14:50:18,987 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-15 14:50:24,824 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
+2024-08-15 14:50:24,826 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-15 14:50:24,826 [ 1] INFO  Unity: DoConnect
+2024-08-15 14:50:24,828 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-15 14:50:24,829 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-08-15 09:46:33,957 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-15 09:50:46,142 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.
-
-  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
-  at Network.NetClient.ProcessRecv () [0x00084] in C:\ExtremeWorld\mymmorpg\Src\Client\Assets\Scripts\Network\NetClient.cs:340 
-
-2024-08-15 09:50:46,144 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:354)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:434)
-
-2024-08-15 09:50:46,149 [ 1] INFO  Unity: DoConnect
-2024-08-15 09:50:46,150 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-15 09:50:46,150 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2024-08-15 09:50:48,195 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2024-08-15 09:50:48,195 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2024-08-15 09:50:48,203 [ 1] INFO  Unity: DoConnect
-2024-08-15 09:50:48,204 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-15 09:50:48,204 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
-
-2024-08-15 09:50:50,227 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2024-08-15 09:50:50,228 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2024-08-15 09:50:50,238 [ 1] INFO  Unity: DoConnect
-2024-08-15 09:50:50,239 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-15 09:50:50,239 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2024-08-15 09:50:52,271 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2024-08-15 09:50:52,271 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2024-08-15 09:50:52,272 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2024-08-15 09:56:21,428 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-15 09:56:21,428 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-15 14:50:24,831 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-15 14:50:27,416 [ 1] INFO  Unity: OnLogin:Success [None]
+2024-08-15 14:50:27,456 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-15 14:50:27,638 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-15 14:50:29,497 [ 1] INFO  Unity: Select Char:[4]箭箭手[Archer]
+2024-08-15 14:50:30,445 [ 1] INFO  Unity: Select Char:[3]士士[Warrior]
+2024-08-15 14:50:31,012 [ 1] INFO  Unity: Select Char:[2]士士[Warrior]
+2024-08-15 14:50:31,424 [ 1] INFO  Unity: Select Char:[1]士[Warrior]
+2024-08-15 14:50:31,868 [ 1] INFO  Unity: Select Char:[2]士士[Warrior]
+2024-08-15 14:50:32,255 [ 1] INFO  Unity: Select Char:[3]士士[Warrior]
+2024-08-15 14:50:32,651 [ 1] INFO  Unity: Select Char:[4]箭箭手[Archer]
+2024-08-15 14:50:33,556 [ 1] INFO  Unity: UserGameEnterRequest::characterId :3
+2024-08-15 14:50:33,574 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2024-08-15 14:50:33,583 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2024-08-15 14:50:33,585 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(0:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-15 14:50:33,586 [ 1] INFO  Unity: LoadLevel: MainCity
+2024-08-15 14:50:33,586 [ 1] INFO  Unity: OnMapCharacterEnter:1
+2024-08-15 14:50:33,587 [ 1] INFO  Unity: LoadLevel: MainCity
+2024-08-15 14:50:33,887 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-15 14:50:34,139 [ 1] INFO  Unity: Character_4_箭箭手 OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2024-08-15 14:50:34,192 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-15 14:50:36,168 [ 1] INFO  Unity: MoveForward
+2024-08-15 14:50:36,400 [ 1] INFO  Unity: SetPosition:(5026, 4000, 809)
+2024-08-15 14:50:36,597 [ 1] INFO  Unity: Stop
+2024-08-15 14:50:36,598 [ 1] INFO  Unity: SetPosition:(5039, 4000, 840)
+2024-08-15 14:50:37,115 [ 1] INFO  Unity: MoveBack
+2024-08-15 14:50:37,453 [ 1] INFO  Unity: Stop
+2024-08-15 14:50:38,655 [ 1] INFO  Unity: SetDirection:(0, 18, -98)
+2024-08-15 14:50:39,955 [ 1] INFO  Unity: SetDirection:(-69, 0, -73)
+2024-08-15 14:50:40,088 [ 1] INFO  Unity: SetDirection:(-66, -28, -70)
+2024-08-15 14:50:40,219 [ 1] INFO  Unity: SetDirection:(-52, -52, -68)
+2024-08-15 14:50:40,343 [ 1] INFO  Unity: SetDirection:(-27, -63, -73)
+2024-08-15 14:50:40,458 [ 1] INFO  Unity: SetDirection:(1, -63, -78)
+2024-08-15 14:50:40,606 [ 1] INFO  Unity: SetDirection:(28, -46, -84)
+2024-08-15 14:50:41,159 [ 1] INFO  Unity: SetPosition:(4915, 3960, 861)
+2024-08-15 14:50:41,644 [ 1] INFO  Unity: SetPosition:(4866, 3946, 850)
+2024-08-15 14:50:42,145 [ 1] INFO  Unity: SetPosition:(4817, 3928, 850)
+2024-08-15 14:50:42,644 [ 1] INFO  Unity: SetPosition:(4769, 3910, 850)
+2024-08-15 14:50:43,146 [ 1] INFO  Unity: SetPosition:(4722, 3892, 850)
+2024-08-15 14:50:43,664 [ 1] INFO  Unity: SetPosition:(4673, 3874, 850)
+2024-08-15 14:50:44,182 [ 1] INFO  Unity: SetPosition:(4624, 3856, 850)
+2024-08-15 14:50:44,702 [ 1] INFO  Unity: SetPosition:(4576, 3838, 850)
+2024-08-15 14:50:45,221 [ 1] INFO  Unity: SetPosition:(4529, 3820, 850)
+2024-08-15 14:50:45,713 [ 1] INFO  Unity: SetDirection:(-72, -27, 64)
+2024-08-15 14:50:45,903 [ 1] INFO  Unity: SetPosition:(4497, 3809, 811)
+2024-08-15 14:50:45,920 [ 1] INFO  Unity: SetDirection:(-80, -52, 29)
+2024-08-15 14:50:46,018 [ 1] INFO  Unity: SetDirection:(-71, -68, 18)
+2024-08-15 14:50:46,117 [ 1] INFO  Unity: SetDirection:(-56, -82, 10)
+2024-08-15 14:50:46,215 [ 1] INFO  Unity: SetDirection:(-38, -92, 5)
+2024-08-15 14:50:46,331 [ 1] INFO  Unity: SetDirection:(-19, -98, 1)
+2024-08-15 14:50:47,238 [ 1] INFO  Unity: SetDirection:(6, -91, -41)
+2024-08-15 14:50:47,352 [ 1] INFO  Unity: SetDirection:(27, -87, -40)
+2024-08-15 14:50:47,467 [ 1] INFO  Unity: SetDirection:(47, -81, -35)
+2024-08-15 14:50:47,888 [ 1] INFO  Unity: SetDirection:(73, -67, -16)
+2024-08-15 14:50:48,275 [ 1] INFO  Unity: SetPosition:(4464, 3789, 845)
+2024-08-15 14:50:48,291 [ 1] INFO  Unity: SetDirection:(56, -49, 66)
+2024-08-15 14:50:48,422 [ 1] INFO  Unity: SetDirection:(32, -60, 73)
+2024-08-15 14:50:48,554 [ 1] INFO  Unity: SetDirection:(3, -69, 72)
+2024-08-15 14:50:48,909 [ 1] INFO  Unity: SetPosition:(4412, 3782, 849)
+2024-08-15 14:50:49,090 [ 1] INFO  Unity: SetPosition:(4375, 3756, 876)
+2024-08-15 14:50:49,295 [ 1] INFO  Unity: SetPosition:(4342, 3716, 868)
+2024-08-15 14:50:49,527 [ 1] INFO  Unity: SetPosition:(4311, 3677, 850)
+2024-08-15 14:50:49,790 [ 1] INFO  Unity: SetPosition:(4272, 3642, 850)
+2024-08-15 14:50:50,062 [ 1] INFO  Unity: SetPosition:(4233, 3606, 850)
+2024-08-15 14:50:50,329 [ 1] INFO  Unity: SetPosition:(4194, 3571, 850)
+2024-08-15 14:50:50,591 [ 1] INFO  Unity: SetPosition:(4155, 3536, 850)
+2024-08-15 14:50:50,864 [ 1] INFO  Unity: SetPosition:(4117, 3501, 850)
+2024-08-15 14:50:51,128 [ 1] INFO  Unity: SetPosition:(4078, 3466, 850)
+2024-08-15 14:50:51,399 [ 1] INFO  Unity: SetPosition:(4040, 3431, 850)
+2024-08-15 14:50:51,661 [ 1] INFO  Unity: SetPosition:(4002, 3396, 850)
+2024-08-15 14:50:51,935 [ 1] INFO  Unity: SetPosition:(3964, 3362, 850)
+2024-08-15 14:50:52,198 [ 1] INFO  Unity: SetPosition:(3926, 3327, 850)
+2024-08-15 14:50:52,461 [ 1] INFO  Unity: SetPosition:(3889, 3293, 850)
+2024-08-15 14:50:52,733 [ 1] INFO  Unity: SetPosition:(3851, 3259, 850)
+2024-08-15 14:50:52,995 [ 1] INFO  Unity: SetPosition:(3814, 3225, 850)
+2024-08-15 14:50:53,268 [ 1] INFO  Unity: SetPosition:(3777, 3191, 850)
+2024-08-15 14:50:53,532 [ 1] INFO  Unity: SetPosition:(3740, 3157, 850)
+2024-08-15 14:50:53,820 [ 1] INFO  Unity: SetPosition:(3701, 3122, 850)
+2024-08-15 14:50:54,100 [ 1] INFO  Unity: SetPosition:(3662, 3086, 850)
+2024-08-15 14:50:54,386 [ 1] INFO  Unity: SetPosition:(3623, 3051, 850)
+2024-08-15 14:50:54,667 [ 1] INFO  Unity: SetPosition:(3584, 3016, 850)
+2024-08-15 14:50:54,956 [ 1] INFO  Unity: SetPosition:(3546, 2981, 850)
+2024-08-15 14:50:55,236 [ 1] INFO  Unity: SetPosition:(3508, 2946, 850)
+2024-08-15 14:50:55,524 [ 1] INFO  Unity: SetPosition:(3470, 2912, 850)
+2024-08-15 14:50:55,803 [ 1] INFO  Unity: SetPosition:(3432, 2877, 850)
+2024-08-15 14:50:56,092 [ 1] INFO  Unity: SetPosition:(3394, 2843, 850)
+2024-08-15 14:50:56,372 [ 1] INFO  Unity: SetPosition:(3356, 2809, 850)
+2024-08-15 14:50:56,660 [ 1] INFO  Unity: SetPosition:(3319, 2775, 850)
+2024-08-15 14:50:56,940 [ 1] INFO  Unity: SetPosition:(3282, 2741, 850)
+2024-08-15 14:50:57,228 [ 1] INFO  Unity: SetPosition:(3244, 2707, 850)
+2024-08-15 14:50:57,525 [ 1] INFO  Unity: SetPosition:(3205, 2671, 850)
+2024-08-15 14:50:57,822 [ 1] INFO  Unity: SetPosition:(3166, 2636, 850)
+2024-08-15 14:50:58,130 [ 1] INFO  Unity: SetPosition:(3128, 2601, 850)
+2024-08-15 14:50:58,426 [ 1] INFO  Unity: SetPosition:(3089, 2566, 850)
+2024-08-15 14:50:58,730 [ 1] INFO  Unity: SetPosition:(3051, 2531, 850)
+2024-08-15 14:50:59,027 [ 1] INFO  Unity: SetPosition:(3013, 2496, 850)
+2024-08-15 14:50:59,330 [ 1] INFO  Unity: SetPosition:(2975, 2462, 850)
+2024-08-15 14:50:59,627 [ 1] INFO  Unity: SetPosition:(2937, 2427, 850)
+2024-08-15 14:50:59,932 [ 1] INFO  Unity: SetPosition:(2899, 2393, 850)
+2024-08-15 14:51:00,228 [ 1] INFO  Unity: SetPosition:(2862, 2359, 850)
+2024-08-15 14:51:00,534 [ 1] INFO  Unity: SetPosition:(2824, 2325, 850)
+2024-08-15 14:51:00,827 [ 1] INFO  Unity: SetPosition:(2787, 2291, 850)
+2024-08-15 14:51:01,149 [ 1] INFO  Unity: SetPosition:(2748, 2256, 850)
+2024-08-15 14:51:01,463 [ 1] INFO  Unity: SetPosition:(2710, 2221, 850)
+2024-08-15 14:51:01,765 [ 1] INFO  Unity: SetPosition:(2673, 2187, 850)
+2024-08-15 14:51:02,087 [ 1] INFO  Unity: SetPosition:(2635, 2152, 850)
+2024-08-15 14:51:02,400 [ 1] INFO  Unity: SetPosition:(2596, 2118, 850)
+2024-08-15 14:51:02,722 [ 1] INFO  Unity: SetPosition:(2558, 2083, 850)
+2024-08-15 14:51:03,036 [ 1] INFO  Unity: SetPosition:(2520, 2049, 850)
+2024-08-15 14:51:03,349 [ 1] INFO  Unity: SetPosition:(2483, 2014, 850)
+2024-08-15 14:51:03,671 [ 1] INFO  Unity: SetPosition:(2445, 1980, 850)
+2024-08-15 14:51:03,991 [ 1] INFO  Unity: SetPosition:(2408, 1946, 850)
+2024-08-15 14:51:04,321 [ 1] INFO  Unity: SetPosition:(2369, 1911, 850)
+2024-08-15 14:51:04,641 [ 1] INFO  Unity: SetPosition:(2332, 1877, 850)
+2024-08-15 14:51:04,971 [ 1] INFO  Unity: SetPosition:(2293, 1842, 850)
+2024-08-15 14:51:05,194 [ 1] INFO  Unity: Character_4_箭箭手 OnDestroy :ID:0 POS:(2293, 1842, 850) DIR:(3, -69, 72) SPD:0 
+2024-08-15 14:51:05,194 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-15 14:51:05,195 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
