@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Entities;
-using Services;
+using Managers;
+using Models;
 
 public class GameObjectManager : MonoBehaviour
 {
@@ -68,8 +69,10 @@ public class GameObjectManager : MonoBehaviour
             PlayerInputController pc = go.GetComponent<PlayerInputController>();
             if (pc != null)
             {
+               
                 if (character.Info.Id == Models.User.Instance.CurrentCharacter.Id)
                 {
+                    User.Instance.CurrentCharacterObject = go;
                     MainPlayerCamera.Instance.player = go;
                     pc.enabled = true;
                     pc.character = character;
