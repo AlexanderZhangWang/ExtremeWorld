@@ -4,7 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Managers;
 
 public class UIMinimap : MonoBehaviour {
     public Collider minimapBoundingBox;
@@ -33,6 +32,7 @@ public class UIMinimap : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        if (minimapBoundingBox == null || playerTransform == null) return;
         float realWidth = minimapBoundingBox.bounds.size.x;
         float realHeight = minimapBoundingBox.bounds.size.z;
         float relaX = playerTransform.position.x - minimapBoundingBox.bounds.min.x;

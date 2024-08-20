@@ -419,7 +419,23 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114004374713519594, guid: 6a36bbaed2fe29d489cd143bc746ef9b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114471968092293468, guid: 6a36bbaed2fe29d489cd143bc746ef9b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136303865016499358, guid: 6a36bbaed2fe29d489cd143bc746ef9b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 54927728735389792, guid: 6a36bbaed2fe29d489cd143bc746ef9b, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6a36bbaed2fe29d489cd143bc746ef9b, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &193671102 stripped
@@ -2497,7 +2513,33 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114444950442105618, guid: 052008e7b7afa9d4f8f962dce59f4c15,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114030725330530814, guid: 052008e7b7afa9d4f8f962dce59f4c15,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114030725330530814, guid: 052008e7b7afa9d4f8f962dce59f4c15,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114444950442105618, guid: 052008e7b7afa9d4f8f962dce59f4c15,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 136238083324671182, guid: 052008e7b7afa9d4f8f962dce59f4c15,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 54165019110597482, guid: 052008e7b7afa9d4f8f962dce59f4c15, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 052008e7b7afa9d4f8f962dce59f4c15, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1249028262 stripped
@@ -2953,7 +2995,33 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114642187379532486, guid: 9b56825716c95e54b9354dc2077ab630,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114555343002106870, guid: 9b56825716c95e54b9354dc2077ab630,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136523960385006916, guid: 9b56825716c95e54b9354dc2077ab630,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114642187379532486, guid: 9b56825716c95e54b9354dc2077ab630,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114555343002106870, guid: 9b56825716c95e54b9354dc2077ab630,
+        type: 2}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 54407921433424152, guid: 9b56825716c95e54b9354dc2077ab630, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 9b56825716c95e54b9354dc2077ab630, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1550209015 stripped
@@ -3089,7 +3157,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 721c2ca643ff25e41ac39cd48714f38e, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -3382,12 +3450,12 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 9cdf50e78f84cd44498bdc93925ab83e, type: 3}
     m_FontSize: 54
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
+    m_BestFit: 1
+    m_MinSize: 12
     m_MaxSize: 72
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1

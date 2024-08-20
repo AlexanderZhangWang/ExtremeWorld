@@ -45,7 +45,8 @@ public class LoadingManager : MonoBehaviour {
         for (float i = 50; i < 100;)
         {
             i += Random.Range(0.1f, 1.5f);
-            progressBar.value = i;
+            progressBar.value = i/100;
+            progressText.text = i > 100.0 ? "100%" : ((int)System.Math.Ceiling(i)).ToString() + '%';
             yield return new WaitForEndOfFrame();
         }
 

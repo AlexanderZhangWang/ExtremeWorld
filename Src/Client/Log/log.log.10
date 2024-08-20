@@ -1,65 +1,142 @@
-2024-08-16 11:14:35,571 [ 1] INFO  Unity: LoadingManager start
-2024-08-16 11:14:38,641 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-16 11:14:43,201 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-16 11:14:43,202 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-16 11:14:43,203 [ 1] INFO  Unity: DoConnect
-2024-08-16 11:14:43,204 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-16 11:14:43,205 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-19 16:16:03,326 [ 1] INFO  Unity: LoadingManager start
+2024-08-19 16:16:05,348 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
 
-2024-08-16 11:14:43,207 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-16 11:14:43,281 [ 1] INFO  Unity: OnLogin:Success [None]
-2024-08-16 11:14:43,296 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-08-16 11:14:43,432 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-16 11:14:43,450 [ 1] INFO  Unity: SetPosition:(0, 58, 0)
-2024-08-16 11:14:44,369 [ 1] INFO  Unity: Select Char:[3]士士[Warrior]
-2024-08-16 11:14:44,880 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
-2024-08-16 11:14:44,899 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2024-08-16 11:14:44,900 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
-2024-08-16 11:14:44,902 [ 1] INFO  Unity: AddCharacter:3:士士 Map:1 Entity:(0:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-16 11:14:44,903 [ 1] INFO  Unity: AddCharacter:2:士士 Map:1 Entity:(0:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-16 11:14:44,904 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-08-16 11:14:44,905 [ 1] INFO  Unity: OnMapCharacterEnter:1
-2024-08-16 11:14:44,905 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-08-16 11:14:45,228 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-16 11:14:45,231 [ 1] INFO  Unity: ---Start UIMinimap.cs
-2024-08-16 11:14:45,233 [ 1] INFO  Unity: ---before if.cs
-2024-08-16 11:14:45,233 [ 1] INFO  Unity: ---Start load res
-2024-08-16 11:14:45,234 [ 1] INFO  Unity: --- load res
-2024-08-16 11:14:45,466 [ 1] INFO  Unity: Character_3_士士 OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2024-08-16 11:14:45,468 [ 1] INFO  Unity: Character_2_士士 OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2024-08-16 11:14:45,525 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-16 11:14:45,526 [ 1] INFO  Unity: ---Start UIMinimap.cs
-2024-08-16 11:14:45,526 [ 1] INFO  Unity: ---before if.cs
-2024-08-16 11:14:45,526 [ 1] INFO  Unity: ---Start load res
-2024-08-16 11:14:45,527 [ 1] INFO  Unity: --- load res
-2024-08-16 11:14:47,404 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
-2024-08-16 11:14:47,503 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
-2024-08-16 11:14:47,602 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
-2024-08-16 11:14:47,692 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
-2024-08-16 11:14:47,791 [ 1] INFO  Unity: SetDirection:(57, -82, 0)
-2024-08-16 11:14:47,823 [ 1] INFO  Unity: MoveForward
-2024-08-16 11:14:47,873 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
-2024-08-16 11:14:47,971 [ 1] INFO  Unity: SetDirection:(22, -98, 0)
-2024-08-16 11:14:48,087 [ 1] INFO  Unity: SetDirection:(3, -100, 0)
-2024-08-16 11:14:48,639 [ 1] INFO  Unity: SetDirection:(-15, -99, 0)
-2024-08-16 11:14:48,771 [ 1] INFO  Unity: SetDirection:(-32, -95, 0)
-2024-08-16 11:14:48,877 [ 1] INFO  Unity: SetDirection:(-50, -87, 0)
-2024-08-16 11:14:48,976 [ 1] INFO  Unity: SetDirection:(-66, -75, 0)
-2024-08-16 11:14:49,124 [ 1] INFO  Unity: SetDirection:(-78, -62, 0)
-2024-08-16 11:14:49,528 [ 1] INFO  Unity: SetDirection:(-65, -76, 0)
-2024-08-16 11:14:49,627 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
-2024-08-16 11:14:49,710 [ 1] INFO  Unity: SetDirection:(-33, -94, 0)
-2024-08-16 11:14:49,792 [ 1] INFO  Unity: SetDirection:(-16, -99, 0)
-2024-08-16 11:14:49,906 [ 1] INFO  Unity: SetDirection:(2, -100, 0)
-2024-08-16 11:14:50,310 [ 1] INFO  Unity: SetDirection:(-18, -98, 0)
-2024-08-16 11:14:50,409 [ 1] INFO  Unity: SetDirection:(-37, -93, 0)
-2024-08-16 11:14:50,492 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
-2024-08-16 11:14:50,607 [ 1] INFO  Unity: SetDirection:(-68, -73, 0)
-2024-08-16 11:14:50,830 [ 1] INFO  Unity: Stop
-2024-08-16 11:14:51,003 [ 1] INFO  Unity: Character_3_士士 OnDestroy :ID:0 POS:(4746, 3197, 820) DIR:(-68, -73, 0) SPD:0 
-2024-08-16 11:14:51,005 [ 1] INFO  Unity: Character_2_士士 OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2024-08-16 11:14:51,006 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-16 11:14:51,006 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-19 16:16:06,350 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-19 16:16:06,441 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,455 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,463 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,476 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,492 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,501 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,509 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,517 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,526 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,535 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,551 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,558 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,567 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,583 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,593 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,600 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,608 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,625 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,640 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,649 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,657 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,666 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,674 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,682 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,690 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,699 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,711 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,720 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,728 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,736 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,753 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,762 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,770 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,777 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,786 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,802 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,811 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,820 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,836 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,852 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,861 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,877 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,884 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:06,894 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-19 16:16:08,354 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-19 16:16:08,354 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)

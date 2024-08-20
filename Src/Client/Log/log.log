@@ -1,123 +1,387 @@
-2024-08-16 15:01:02,746 [ 1] INFO  Unity: LoadingManager start
-2024-08-16 15:01:05,818 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-16 15:01:12,354 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-16 15:01:12,355 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-16 15:01:12,355 [ 1] INFO  Unity: DoConnect
-2024-08-16 15:01:12,357 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-16 15:01:12,358 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-20 08:59:56,644 [ 1] INFO  Unity: LoadingManager start
+2024-08-20 08:59:58,656 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
 
-2024-08-16 15:01:12,360 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-16 15:01:14,954 [ 1] INFO  Unity: OnLogin:Success [None]
-2024-08-16 15:01:15,002 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-08-16 15:01:15,487 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-16 15:01:15,495 [ 1] INFO  Unity: SetPosition:(0, 58, 0)
-2024-08-16 15:01:18,213 [ 1] INFO  Unity: Select Char:[1]士[Warrior]
-2024-08-16 15:01:19,465 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2024-08-16 15:01:19,481 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2024-08-16 15:01:19,491 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2024-08-16 15:01:19,492 [ 1] INFO  Unity: AddCharacter:1:士 Map:1 Entity:(0:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-16 15:01:19,494 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-08-16 15:01:19,495 [ 1] INFO  Unity: OnMapCharacterEnter:1
-2024-08-16 15:01:19,496 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-08-16 15:01:20,363 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-16 15:01:20,367 [ 1] INFO  Unity: ---Start UIMinimap.cs
-2024-08-16 15:01:20,367 [ 1] INFO  Unity: ---before if.cs
-2024-08-16 15:01:20,368 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
-2024-08-16 15:01:20,368 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
-2024-08-16 15:01:20,593 [ 1] INFO  Unity: Character_1_士 OnDestroy :ID:0 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2024-08-16 15:01:20,649 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-16 15:01:20,654 [ 1] INFO  Unity: ---Start UIMinimap.cs
-2024-08-16 15:01:20,654 [ 1] INFO  Unity: ---before if.cs
-2024-08-16 15:01:20,654 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
-2024-08-16 15:01:20,654 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
-2024-08-16 15:01:26,771 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2024-08-16 15:01:26,870 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2024-08-16 15:01:26,952 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
-2024-08-16 15:01:27,035 [ 1] INFO  Unity: SetDirection:(76, -65, 0)
-2024-08-16 15:01:27,117 [ 1] INFO  Unity: SetDirection:(63, -77, 0)
-2024-08-16 15:01:27,199 [ 1] INFO  Unity: SetDirection:(49, -87, 0)
-2024-08-16 15:01:27,298 [ 1] INFO  Unity: SetDirection:(32, -95, 0)
-2024-08-16 15:01:27,438 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:01:28,254 [ 1] INFO  Unity: SetDirection:(15, -99, 0)
-2024-08-16 15:01:28,451 [ 1] INFO  Unity: SetDirection:(-3, -100, 0)
-2024-08-16 15:01:28,550 [ 1] INFO  Unity: SetDirection:(-21, -98, 0)
-2024-08-16 15:01:28,657 [ 1] INFO  Unity: SetDirection:(-40, -91, 0)
-2024-08-16 15:01:28,739 [ 1] INFO  Unity: SetDirection:(-56, -83, 0)
-2024-08-16 15:01:28,839 [ 1] INFO  Unity: SetDirection:(-72, -70, 0)
-2024-08-16 15:01:28,971 [ 1] INFO  Unity: SetDirection:(-84, -55, 0)
-2024-08-16 15:01:30,245 [ 1] INFO  Unity: SetPosition:(4706, 3358, 800)
-2024-08-16 15:01:31,207 [ 1] INFO  Unity: SetDirection:(-92, -39, 0)
-2024-08-16 15:01:31,397 [ 1] INFO  Unity: SetDirection:(-98, -22, 0)
-2024-08-16 15:01:31,495 [ 1] INFO  Unity: SetDirection:(-100, -3, 0)
-2024-08-16 15:01:31,578 [ 1] INFO  Unity: SetDirection:(-99, 14, 0)
-2024-08-16 15:01:31,677 [ 1] INFO  Unity: SetDirection:(-95, 31, 0)
-2024-08-16 15:01:33,579 [ 1] INFO  Unity: SetPosition:(3785, 3350, 801)
-2024-08-16 15:01:34,715 [ 1] INFO  Unity: SetDirection:(-88, 47, 0)
-2024-08-16 15:01:35,103 [ 1] INFO  Unity: SetDirection:(-77, 63, 0)
-2024-08-16 15:01:35,201 [ 1] INFO  Unity: SetDirection:(-65, 76, 0)
-2024-08-16 15:01:35,334 [ 1] INFO  Unity: SetDirection:(-50, 86, 0)
-2024-08-16 15:01:36,568 [ 1] INFO  Unity: Stop
-2024-08-16 15:01:37,869 [ 1] INFO  Unity: SetDirection:(-33, 95, 0)
-2024-08-16 15:01:37,926 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:01:37,992 [ 1] INFO  Unity: SetDirection:(-13, 99, 0)
-2024-08-16 15:01:38,090 [ 1] INFO  Unity: SetDirection:(8, 100, 0)
-2024-08-16 15:01:38,189 [ 1] INFO  Unity: SetDirection:(28, 96, 0)
-2024-08-16 15:01:38,322 [ 1] INFO  Unity: SetDirection:(45, 89, 0)
-2024-08-16 15:01:38,611 [ 1] INFO  Unity: SetPosition:(3168, 4072, 801)
-2024-08-16 15:01:40,213 [ 1] INFO  Unity: SetPosition:(3384, 4500, 801)
-2024-08-16 15:01:40,607 [ 1] INFO  Unity: SetDirection:(60, 80, 0)
-2024-08-16 15:01:42,295 [ 1] INFO  Unity: SetDirection:(73, 68, 0)
-2024-08-16 15:01:42,518 [ 1] INFO  Unity: SetDirection:(84, 54, 0)
-2024-08-16 15:01:42,616 [ 1] INFO  Unity: SetDirection:(92, 38, 0)
-2024-08-16 15:01:42,716 [ 1] INFO  Unity: SetDirection:(98, 18, 0)
-2024-08-16 15:01:42,814 [ 1] INFO  Unity: SetDirection:(100, -2, 0)
-2024-08-16 15:01:42,913 [ 1] INFO  Unity: SetDirection:(98, -21, 0)
-2024-08-16 15:01:43,086 [ 1] INFO  Unity: SetDirection:(93, -38, 0)
-2024-08-16 15:01:44,568 [ 1] INFO  Unity: Stop
-2024-08-16 15:01:44,683 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:01:45,037 [ 1] INFO  Unity: SetPosition:(4463, 4868, 801)
-2024-08-16 15:01:45,451 [ 1] INFO  Unity: Stop
-2024-08-16 15:01:47,056 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:01:47,927 [ 1] INFO  Unity: SetDirection:(84, -54, 0)
-2024-08-16 15:01:48,042 [ 1] INFO  Unity: SetDirection:(71, -70, 0)
-2024-08-16 15:01:48,124 [ 1] INFO  Unity: SetDirection:(58, -82, 0)
-2024-08-16 15:01:48,240 [ 1] INFO  Unity: SetDirection:(41, -91, 0)
-2024-08-16 15:01:48,543 [ 1] INFO  Unity: Stop
-2024-08-16 15:01:53,740 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:01:54,340 [ 1] INFO  Unity: SetDirection:(24, -97, 0)
-2024-08-16 15:01:54,957 [ 1] INFO  Unity: SetDirection:(6, -100, 0)
-2024-08-16 15:01:55,222 [ 1] INFO  Unity: SetDirection:(-12, -99, 0)
-2024-08-16 15:01:56,057 [ 1] INFO  Unity: SetDirection:(-29, -96, 0)
-2024-08-16 15:01:56,429 [ 1] INFO  Unity: SetPosition:(4988, 3797, 801)
-2024-08-16 15:01:56,659 [ 1] INFO  Unity: SetDirection:(-45, -89, 0)
-2024-08-16 15:01:58,199 [ 1] INFO  Unity: SetPosition:(4760, 3319, 800)
-2024-08-16 15:01:59,301 [ 1] INFO  Unity: SetDirection:(-61, -79, 0)
-2024-08-16 15:02:00,347 [ 1] INFO  Unity: SetDirection:(-75, -67, 0)
-2024-08-16 15:02:00,470 [ 1] INFO  Unity: SetDirection:(-86, -51, 0)
-2024-08-16 15:02:00,569 [ 1] INFO  Unity: SetDirection:(-95, -32, 0)
-2024-08-16 15:02:00,668 [ 1] INFO  Unity: SetDirection:(-99, -12, 0)
-2024-08-16 15:02:00,800 [ 1] INFO  Unity: SetDirection:(-100, 7, 0)
-2024-08-16 15:02:01,088 [ 1] INFO  Unity: Stop
-2024-08-16 15:02:07,383 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:02:07,869 [ 1] INFO  Unity: SetDirection:(-97, 24, 0)
-2024-08-16 15:02:10,050 [ 1] INFO  Unity: Stop
-2024-08-16 15:02:15,365 [ 1] INFO  Unity: MoveForward
-2024-08-16 15:02:15,760 [ 1] INFO  Unity: SetDirection:(-91, 41, 0)
-2024-08-16 15:02:16,131 [ 1] INFO  Unity: SetDirection:(-83, 56, 0)
-2024-08-16 15:02:16,247 [ 1] INFO  Unity: SetDirection:(-71, 70, 0)
-2024-08-16 15:02:16,346 [ 1] INFO  Unity: SetDirection:(-55, 83, 0)
-2024-08-16 15:02:16,436 [ 1] INFO  Unity: SetDirection:(-40, 92, 0)
-2024-08-16 15:02:16,518 [ 1] INFO  Unity: SetDirection:(-23, 97, 0)
-2024-08-16 15:02:16,617 [ 1] INFO  Unity: SetDirection:(-3, 100, 0)
-2024-08-16 15:02:16,716 [ 1] INFO  Unity: SetDirection:(16, 99, 0)
-2024-08-16 15:02:16,914 [ 1] INFO  Unity: SetDirection:(33, 94, 0)
-2024-08-16 15:02:17,334 [ 1] INFO  Unity: SetDirection:(14, 99, 0)
-2024-08-16 15:02:17,450 [ 1] INFO  Unity: SetDirection:(-5, 100, 0)
-2024-08-16 15:02:18,453 [ 1] INFO  Unity: Stop
-2024-08-16 15:02:30,708 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-16 15:02:30,709 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-20 08:59:59,658 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-20 08:59:59,744 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,752 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,760 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,767 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,776 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,784 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,800 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,817 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,825 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,842 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,858 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,870 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,877 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,886 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,895 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,903 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,911 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,927 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,936 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,944 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,952 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,969 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,985 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 08:59:59,994 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,003 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,010 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,026 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,043 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,051 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,067 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,076 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,084 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,093 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,101 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,125 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,142 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,150 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,166 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,174 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,183 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,191 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:00,199 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2024-08-20 09:00:05,817 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
+2024-08-20 09:00:05,818 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-20 09:00:05,819 [ 1] INFO  Unity: DoConnect
+2024-08-20 09:00:05,820 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-20 09:00:05,821 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2024-08-20 09:00:05,823 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-20 09:00:08,355 [ 1] INFO  Unity: OnLogin:Success [None]
+2024-08-20 09:00:08,375 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-20 09:00:08,522 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-20 09:00:23,668 [ 1] INFO  Unity: Select Char:[4]箭箭手[Archer]
+2024-08-20 09:00:24,144 [ 1] INFO  Unity: UserGameEnterRequest::characterId :3
+2024-08-20 09:00:24,164 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2024-08-20 09:00:24,165 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2024-08-20 09:00:24,168 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-20 09:00:24,170 [ 1] INFO  Unity: AddCharacter:5:法法 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-20 09:00:24,172 [ 1] INFO  Unity: LoadLevel: MainCity
+2024-08-20 09:00:24,532 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-20 09:00:24,534 [ 1] INFO  Unity: GameObject Created
+2024-08-20 09:00:24,536 [ 1] INFO  Unity: ---Start UIMinimap.cs
+2024-08-20 09:00:24,536 [ 1] INFO  Unity: ---before if.cs
+2024-08-20 09:00:24,538 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
+2024-08-20 09:00:24,538 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
+2024-08-20 09:00:24,569 [ 1] INFO  Unity: GameObject Created
+2024-08-20 09:00:40,495 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(98, -19, 0) SPD:0
+2024-08-20 09:00:40,496 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(98,-19,0),spd:0
+
+2024-08-20 09:01:14,077 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(93, -36, 0) SPD:0
+2024-08-20 09:01:14,078 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+
+2024-08-20 09:01:14,201 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(84, -54, 0) SPD:0
+2024-08-20 09:01:14,202 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(84,-54,0),spd:0
+
+2024-08-20 09:01:14,283 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(73, -68, 0) SPD:0
+2024-08-20 09:01:14,284 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(73,-68,0),spd:0
+
+2024-08-20 09:01:14,399 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(59, -80, 0) SPD:0
+2024-08-20 09:01:14,399 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(59,-80,0),spd:0
+
+2024-08-20 09:01:14,820 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(74, -67, 0) SPD:0
+2024-08-20 09:01:14,820 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(74,-67,0),spd:0
+
+2024-08-20 09:01:14,902 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(85, -53, 0) SPD:0
+2024-08-20 09:01:14,902 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(85,-53,0),spd:0
+
+2024-08-20 09:01:15,001 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(94, -34, 0) SPD:0
+2024-08-20 09:01:15,002 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(94,-34,0),spd:0
+
+2024-08-20 09:01:15,100 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(99, -14, 0) SPD:0
+2024-08-20 09:01:15,101 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(99,-14,0),spd:0
+
+2024-08-20 09:01:15,198 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(100, 7, 0) SPD:0
+2024-08-20 09:01:15,199 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(100,7,0),spd:0
+
+2024-08-20 09:01:15,298 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(96, 27, 0) SPD:0
+2024-08-20 09:01:15,298 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(96,27,0),spd:0
+
+2024-08-20 09:01:15,379 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(90, 44, 0) SPD:0
+2024-08-20 09:01:15,380 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(90,44,0),spd:0
+
+2024-08-20 09:01:15,494 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(81, 59, 0) SPD:0
+2024-08-20 09:01:15,495 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(81,59,0),spd:0
+
+2024-08-20 09:01:15,667 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(5000, 4000, 820) DIR:(69, 72, 0) SPD:0
+2024-08-20 09:01:15,668 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(5000,4000,820),dir:(69,72,0),spd:0
+
+2024-08-20 09:01:18,463 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4997, 3996, 820) DIR:(69, 72, 0) SPD:-300
+2024-08-20 09:01:18,464 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:MoveBack entity:(1:pos:(4997,3996,820),dir:(69,72,0),spd:-300
+
+2024-08-20 09:01:19,327 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4844, 3792, 820) DIR:(69, 72, 0) SPD:0
+2024-08-20 09:01:19,328 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:Idle entity:(1:pos:(4844,3792,820),dir:(69,72,0),spd:0
+
+2024-08-20 09:01:19,344 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4847, 3796, 820) DIR:(69, 72, 0) SPD:300
+2024-08-20 09:01:19,344 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:MoveFwd entity:(1:pos:(4847,3796,820),dir:(69,72,0),spd:300
+
+2024-08-20 09:01:19,945 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4952, 3936, 820) DIR:(69, 72, 0) SPD:0
+2024-08-20 09:01:19,945 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:Idle entity:(1:pos:(4952,3936,820),dir:(69,72,0),spd:0
+
+2024-08-20 09:01:32,137 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4949, 3932, 820) DIR:(69, 72, 0) SPD:-300
+2024-08-20 09:01:32,138 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:MoveBack entity:(1:pos:(4949,3932,820),dir:(69,72,0),spd:-300
+
+2024-08-20 09:01:32,875 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4820, 3760, 820) DIR:(69, 72, 0) SPD:0
+2024-08-20 09:01:32,876 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:Idle entity:(1:pos:(4820,3760,820),dir:(69,72,0),spd:0
+
+2024-08-20 09:01:32,908 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4826, 3768, 820) DIR:(69, 72, 0) SPD:300
+2024-08-20 09:01:32,908 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:MoveFwd entity:(1:pos:(4826,3768,820),dir:(69,72,0),spd:300
+
+2024-08-20 09:01:33,575 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(69, 72, 0) SPD:0
+2024-08-20 09:01:33,575 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:Idle entity:(1:pos:(4943,3924,820),dir:(69,72,0),spd:0
+
+2024-08-20 09:01:33,764 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(81, 59, 0) SPD:0
+2024-08-20 09:01:33,765 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(81,59,0),spd:0
+
+2024-08-20 09:01:33,862 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(90, 43, 0) SPD:0
+2024-08-20 09:01:33,864 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(90,43,0),spd:0
+
+2024-08-20 09:01:33,938 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(96, 27, 0) SPD:0
+2024-08-20 09:01:33,939 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(96,27,0),spd:0
+
+2024-08-20 09:01:34,021 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(100, 10, 0) SPD:0
+2024-08-20 09:01:34,022 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(100,10,0),spd:0
+
+2024-08-20 09:01:34,102 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(100, -8, 0) SPD:0
+2024-08-20 09:01:34,103 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(100,-8,0),spd:0
+
+2024-08-20 09:01:34,219 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(97, -25, 0) SPD:0
+2024-08-20 09:01:34,220 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(97,-25,0),spd:0
+
+2024-08-20 09:01:34,522 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(100, -5, 0) SPD:0
+2024-08-20 09:01:34,523 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(100,-5,0),spd:0
+
+2024-08-20 09:01:34,621 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(99, 15, 0) SPD:0
+2024-08-20 09:01:34,622 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(99,15,0),spd:0
+
+2024-08-20 09:01:34,704 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(95, 32, 0) SPD:0
+2024-08-20 09:01:34,704 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(95,32,0),spd:0
+
+2024-08-20 09:01:34,786 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(88, 48, 0) SPD:0
+2024-08-20 09:01:34,786 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(88,48,0),spd:0
+
+2024-08-20 09:01:34,876 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(78, 63, 0) SPD:0
+2024-08-20 09:01:34,877 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(78,63,0),spd:0
+
+2024-08-20 09:01:34,968 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(64, 77, 0) SPD:0
+2024-08-20 09:01:34,968 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(64,77,0),spd:0
+
+2024-08-20 09:01:35,486 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(77, 63, 0) SPD:0
+2024-08-20 09:01:35,486 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(77,63,0),spd:0
+
+2024-08-20 09:02:39,824 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(87, 49, 0) SPD:0
+2024-08-20 09:02:39,825 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(87,49,0),spd:0
+
+2024-08-20 09:02:39,923 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(95, 32, 0) SPD:0
+2024-08-20 09:02:39,924 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(95,32,0),spd:0
+
+2024-08-20 09:02:40,023 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(99, 12, 0) SPD:0
+2024-08-20 09:02:40,024 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(99,12,0),spd:0
+
+2024-08-20 09:02:40,121 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(100, -9, 0) SPD:0
+2024-08-20 09:02:40,122 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(100,-9,0),spd:0
+
+2024-08-20 09:02:40,226 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(96, -29, 0) SPD:0
+2024-08-20 09:02:40,227 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(96,-29,0),spd:0
+
+2024-08-20 09:02:40,523 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(99, -10, 0) SPD:0
+2024-08-20 09:02:40,524 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(99,-10,0),spd:0
+
+2024-08-20 09:02:40,630 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(100, 9, 0) SPD:0
+2024-08-20 09:02:40,630 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(100,9,0),spd:0
+
+2024-08-20 09:02:40,713 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4943, 3924, 820) DIR:(96, 27, 0) SPD:0
+2024-08-20 09:02:40,714 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4943,3924,820),dir:(96,27,0),spd:0
+
+2024-08-20 09:02:40,803 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4938, 3923, 820) DIR:(96, 27, 0) SPD:-300
+2024-08-20 09:02:40,804 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:MoveBack entity:(1:pos:(4938,3923,820),dir:(96,27,0),spd:-300
+
+2024-08-20 09:02:40,829 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4930, 3919, 820) DIR:(89, 46, 0) SPD:-300
+2024-08-20 09:02:40,830 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4930,3919,820),dir:(89,46,0),spd:-300
+
+2024-08-20 09:02:40,937 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4902, 3904, 820) DIR:(79, 62, 0) SPD:-300
+2024-08-20 09:02:40,937 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4902,3904,820),dir:(79,62,0),spd:-300
+
+2024-08-20 09:02:41,948 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4662, 3724, 820) DIR:(79, 62, 0) SPD:-300
+2024-08-20 09:02:41,950 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4662,3724,820),dir:(79,62,0),spd:-300
+
+2024-08-20 09:02:42,969 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4448, 3577, 802) DIR:(79, 62, 0) SPD:0
+2024-08-20 09:02:42,970 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:Idle entity:(1:pos:(4448,3577,802),dir:(79,62,0),spd:0
+
+2024-08-20 09:02:43,488 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4452, 3580, 802) DIR:(79, 62, 0) SPD:300
+2024-08-20 09:02:43,489 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:MoveFwd entity:(1:pos:(4452,3580,802),dir:(79,62,0),spd:300
+
+2024-08-20 09:02:43,744 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4516, 3627, 802) DIR:(89, 46, 0) SPD:300
+2024-08-20 09:02:43,745 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4516,3627,802),dir:(89,46,0),spd:300
+
+2024-08-20 09:02:43,843 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4541, 3638, 802) DIR:(96, 28, 0) SPD:300
+2024-08-20 09:02:43,844 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4541,3638,802),dir:(96,28,0),spd:300
+
+2024-08-20 09:02:43,959 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4576, 3645, 802) DIR:(99, 11, 0) SPD:300
+2024-08-20 09:02:43,960 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4576,3645,802),dir:(99,11,0),spd:300
+
+2024-08-20 09:02:44,437 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4716, 3674, 802) DIR:(95, 30, 0) SPD:300
+2024-08-20 09:02:44,438 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4716,3674,802),dir:(95,30,0),spd:300
+
+2024-08-20 09:02:44,529 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4745, 3686, 802) DIR:(88, 47, 0) SPD:300
+2024-08-20 09:02:44,529 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4745,3686,802),dir:(88,47,0),spd:300
+
+2024-08-20 09:02:44,719 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4789, 3709, 802) DIR:(78, 62, 0) SPD:300
+2024-08-20 09:02:44,719 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:None entity:(1:pos:(4789,3709,802),dir:(78,62,0),spd:300
+
+2024-08-20 09:02:45,419 [ 1] INFO  Unity: OnEntityChanged :ID:1 POS:(4953, 3832, 802) DIR:(78, 62, 0) SPD:0
+2024-08-20 09:02:45,420 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+   [1]evt:Idle entity:(1:pos:(4953,3832,802),dir:(78,62,0),spd:0
+
+2024-08-20 09:02:46,720 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-20 09:02:46,720 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
-2024-08-16 15:02:30,713 [ 1] INFO  Unity: Character_1_士 OnDestroy :ID:0 POS:(3190, 3617, 800) DIR:(-5, 100, 0) SPD:0 
+2024-08-20 09:02:46,724 [ 1] INFO  Unity: Character_4_箭箭手 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2024-08-20 09:02:46,724 [ 1] INFO  Unity: Character_5_法法 OnDestroy :ID:1 POS:(4953, 3832, 802) DIR:(78, 62, 0) SPD:0 

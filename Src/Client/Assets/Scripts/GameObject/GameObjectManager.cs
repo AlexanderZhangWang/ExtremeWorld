@@ -5,21 +5,24 @@ using UnityEngine;
 using Entities;
 using Managers;
 using Models;
+using System;
 
-public class GameObjectManager : MonoBehaviour
+public class GameObjectManager : MonoSingleton<GameObjectManager>
 {
 
     Dictionary<int, GameObject> Characters = new Dictionary<int, GameObject>();
     // Use this for initialization
-    void Start()
+    protected override void OnStart()
     {
         StartCoroutine(InitGameObjects());
-        CharacterManager.Instance.OnCharacterEnter = OnCharacterEnter;
+        CharacterManager.Instance.OnCharacterEnter += OnCharacterEnter;
+        CharacterManager.Instance.OnCharacterLeave += OnCharacterLeave;
     }
 
     private void OnDestroy()
     {
-        CharacterManager.Instance.OnCharacterEnter = null;
+        CharacterManager.Instance.OnCharacterEnter -= OnCharacterEnter;
+        CharacterManager.Instance.OnCharacterEnter -= OnCharacterLeave;
     }
 
     // Update is called once per frame
@@ -31,6 +34,18 @@ public class GameObjectManager : MonoBehaviour
     void OnCharacterEnter(Character cha)
     {
         CreateCharacterObject(cha);
+    }
+    void OnCharacterLeave(Character cha)
+    {
+        if (!Characters.ContainsKey(cha.entityId))
+        {
+            return;
+        }
+        if (Characters[cha.entityId] != null)
+        {
+            Destroy(Characters[cha.entityId]);
+            this.Characters.Remove(cha.entityId);
+        }
     }
 
     IEnumerator InitGameObjects()
@@ -44,15 +59,16 @@ public class GameObjectManager : MonoBehaviour
 
     private void CreateCharacterObject(Character character)
     {
-        if (!Characters.ContainsKey(character.Info.Id) || Characters[character.Info.Id] == null)
+        Debug.Log("GameObject Created");
+        if (!Characters.ContainsKey(character.entityId) || Characters[character.entityId] == null)
         {
-            Object obj = Resloader.Load<Object>(character.Define.Resource);
+            UnityEngine.Object obj = Resloader.Load<UnityEngine.Object>(character.Define.Resource);
             if(obj == null)
             {
                 Debug.LogErrorFormat("Character[{0}] Resource[{1}] not existed.",character.Define.TID, character.Define.Resource);
                 return;
             }
-            GameObject go = (GameObject)Instantiate(obj);
+            GameObject go = (GameObject)Instantiate(obj, this.transform);
             go.name = "Character_" + character.Info.Id + "_" + character.Info.Name;
 
             go.transform.position = GameObjectTool.LogicToWorld(character.position);

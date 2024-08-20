@@ -23,8 +23,8 @@ public class UICharacterView : MonoBehaviour {
     }
 
 	void Start () {
-		
-	}
+
+    }
 	
 	void Update () {
 		
