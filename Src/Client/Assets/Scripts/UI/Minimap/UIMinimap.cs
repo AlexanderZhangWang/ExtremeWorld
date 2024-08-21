@@ -27,11 +27,14 @@ public class UIMinimap : MonoBehaviour {
         Debug.Log("---Minimap transform " + this.minimap.transform.localPosition.ToString());
         this.minimap.transform.localPosition = Vector3.zero;
         Debug.Log("---Minimap transform " + this.minimap.transform.localPosition.ToString());
-        this.playerTransform = User.Instance.CurrentCharacterObject.transform;
     }
 
     // Update is called once per frame
     void Update () {
+        if (playerTransform == null)
+        {
+            playerTransform = MinimapManager.Instance.PlayerTransform;
+        }
         if (minimapBoundingBox == null || playerTransform == null) return;
         float realWidth = minimapBoundingBox.bounds.size.x;
         float realHeight = minimapBoundingBox.bounds.size.z;

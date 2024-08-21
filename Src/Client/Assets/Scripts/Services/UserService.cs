@@ -245,8 +245,10 @@ namespace Services
         }
         void OnGameLeave (object sender, UserGameLeaveResponse response)
         {
-            Debug.LogFormat("OnGameLeave: {0} [{1}]", response.Result, response.Errormsg);
             MapService.Instance.CurrentMapId = 0;
+            User.Instance.CurrentCharacter = null;
+            Debug.LogFormat("OnGameLeave: {0} [{1}]", response.Result, response.Errormsg);
+            
             
         }
 

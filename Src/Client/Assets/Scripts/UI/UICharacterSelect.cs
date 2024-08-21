@@ -14,7 +14,7 @@ public class UICharacterSelect : MonoBehaviour {
     public GameObject btnCreateCancel;
 
     public InputField charName;
-    CharacterClass charClass;
+    CharacterClass charClass = (CharacterClass)1;
 
     public Transform uiCharList;
     public GameObject uiCharInfo;
@@ -108,7 +108,6 @@ public class UICharacterSelect : MonoBehaviour {
         this.selectCharacterIdx = idx;
         var cha = User.Instance.Info.Player.Characters[idx];
         Debug.LogFormat("Select Char:[{0}]{1}[{2}]", cha.Id, cha.Name, cha.Class);
-        User.Instance.CurrentCharacter = cha;
         characterView.CurrectCharacter = (int)User.Instance.Info.Player.Characters[idx].Class-1;
 
         for (int i = 0; i < User.Instance.Info.Player.Characters.Count; i++)
