@@ -1,53 +1,40 @@
-2024-08-21 09:43:32,384 [ 1] INFO  Unity: LoadingManager start
-2024-08-21 09:43:35,418 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-21 09:43:46,947 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-21 09:43:46,954 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-21 09:43:46,955 [ 1] INFO  Unity: DoConnect
-2024-08-21 09:43:46,956 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-21 09:43:46,958 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-21 09:50:08,501 [ 1] INFO  Unity: LoadingManager start
+2024-08-21 09:50:11,539 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-21 09:50:17,536 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
+2024-08-21 09:50:17,537 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-21 09:50:17,538 [ 1] INFO  Unity: DoConnect
+2024-08-21 09:50:17,539 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-21 09:50:17,540 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-08-21 09:43:46,964 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-21 09:43:47,208 [ 1] INFO  Unity: OnLogin:Success [None]
-2024-08-21 09:43:47,222 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-08-21 09:43:47,430 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-21 09:43:48,287 [ 1] INFO  Unity: Select Char:[4]箭箭手[Archer]
-2024-08-21 09:43:49,175 [ 1] INFO  Unity: UserGameEnterRequest::characterId :3
-2024-08-21 09:43:49,205 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2024-08-21 09:43:49,205 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:6
-2024-08-21 09:43:49,212 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-21 09:43:49,229 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-21 09:43:49,230 [ 1] INFO  Unity: AddCharacter:3:士士 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-21 09:43:49,230 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-21 09:43:49,230 [ 1] INFO  Unity: AddCharacter:3:士士 Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-21 09:43:49,232 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-21 09:43:49,233 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-08-21 09:43:49,573 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-21 09:43:51,226 [ 1] INFO  Unity: GameObject Created
-2024-08-21 09:44:30,193 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{KeyNotFoundException: The given key was not present in the dictionary., System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].get_Item (Int32 key) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/Dictionary.cs:150)
-GameObjectManager.CreateCharacterObject (Entities.Character character) (at Assets/Scripts/GameObject/GameObjectManager.cs:77)
-GameObjectManager+<InitGameObjects>c__Iterator0.MoveNext () (at Assets/Scripts/GameObject/GameObjectManager.cs:55)
-UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-GameObjectManager:OnStart() (at Assets/Scripts/GameObject/GameObjectManager.cs:17)
-MonoSingleton`1:Start() (at Assets/Scripts/Utilities/MonoSingleton.cs:33)
-}</args></log4net.Error>
-2024-08-21 09:44:30,252 [ 1] INFO  Unity: ---Start UIMinimap.cs
-2024-08-21 09:44:30,253 [ 1] INFO  Unity: ---before if.cs
-2024-08-21 09:44:30,256 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
-2024-08-21 09:44:35,232 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
-2024-08-21 09:44:40,158 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIMinimap.InitMap () (at Assets/Scripts/UI/Minimap/UIMinimap.cs:30)
-UIMinimap.Start () (at Assets/Scripts/UI/Minimap/UIMinimap.cs:17)
-}</args></log4net.Error>
-2024-08-21 09:44:40,183 [ 1] INFO  Unity: SetPosition:(0, 0, 97)
-2024-08-21 09:44:43,191 [ 1] INFO  Unity: MapEntityUpdateRequest:ID:0 POS:(0,0,0) DIR:(0,100,0) SPD0
-2024-08-21 09:44:43,291 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
-   [0]evt:None entity:(0:pos:(0,0,0),dir:(0,100,0),spd:0
-
-2024-08-21 09:45:49,304 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-21 09:45:49,305 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-21 09:50:17,542 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-21 09:50:17,608 [ 1] INFO  Unity: OnLogin:Success [None]
+2024-08-21 09:50:17,612 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-21 09:50:17,753 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-21 09:50:18,522 [ 1] INFO  Unity: Select Char:[4]箭箭手[Archer]
+2024-08-21 09:50:19,041 [ 1] INFO  Unity: UserGameEnterRequest::characterId :3
+2024-08-21 09:50:19,060 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2024-08-21 09:50:19,061 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:9
+2024-08-21 09:50:19,063 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,066 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,066 [ 1] INFO  Unity: AddCharacter:3:士士 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,067 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,068 [ 1] INFO  Unity: AddCharacter:3:士士 Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,068 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,069 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,069 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,070 [ 1] INFO  Unity: AddCharacter:4:箭箭手 Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-21 09:50:19,071 [ 1] INFO  Unity: LoadLevel: MainCity
+2024-08-21 09:50:19,381 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-21 09:50:19,384 [ 1] INFO  Unity: GameObject Created
+2024-08-21 09:50:19,386 [ 1] INFO  Unity: ---Start UIMinimap.cs
+2024-08-21 09:50:19,387 [ 1] INFO  Unity: ---before if.cs
+2024-08-21 09:50:19,387 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
+2024-08-21 09:50:19,388 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
+2024-08-21 09:50:19,420 [ 1] INFO  Unity: GameObject Created
+2024-08-21 09:50:25,444 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-21 09:50:25,445 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
+2024-08-21 09:50:25,448 [ 1] INFO  Unity: Character_4_箭箭手 OnDestroy :ID:4 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
