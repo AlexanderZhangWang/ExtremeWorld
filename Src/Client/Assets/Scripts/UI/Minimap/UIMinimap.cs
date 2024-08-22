@@ -14,19 +14,21 @@ public class UIMinimap : MonoBehaviour {
     private Transform playerTransform;
 	void Start () {
         Debug.Log("---Start UIMinimap.cs");
-        this.InitMap();
+        MinimapManager.Instance.minimap = this;
+        this.UpdateMap();
     }
-    void InitMap()
+    public void UpdateMap()
     {
         this.mapName.text = User.Instance.CurrentMapData.Name;
         Debug.Log("---before if.cs");
-        if (this.minimap.overrideSprite == null)
-            this.minimap.overrideSprite = MinimapManager.Instance.LoadCurrentMinimap();
+        this.minimap.overrideSprite = MinimapManager.Instance.LoadCurrentMinimap();
 
         this.minimap.SetNativeSize();
         Debug.Log("---Minimap transform " + this.minimap.transform.localPosition.ToString());
         this.minimap.transform.localPosition = Vector3.zero;
         Debug.Log("---Minimap transform " + this.minimap.transform.localPosition.ToString());
+        this.minimapBoundingBox = MinimapManager.Instance.MinimapBoundingBox;
+        this.playerTransform = null;
     }
 
     // Update is called once per frame
