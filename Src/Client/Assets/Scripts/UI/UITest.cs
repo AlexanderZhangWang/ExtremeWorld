@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class UITest : UIWindow
 {
-
+    public string title;
 	// Use this for initialization
 	void Start () {
 		
@@ -14,4 +15,9 @@ public class UITest : UIWindow
 	void Update () {
 		
 	}
+
+    internal void SetTitle(string name)
+    {
+        title = name;
+    }
 }
