@@ -236,6 +236,7 @@ namespace Services
                 if (response.Character != null)
                 {
                     ItemManager.Instance.Init(response.Character.Items);
+                    BagManager.Instance.Init(response.Character.Bag);
                 }
             }
         }

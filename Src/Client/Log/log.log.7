@@ -1,12 +1,64 @@
-2024-08-23 09:17:07,766 [ 1] INFO  Unity: LoadingManager start
-2024-08-23 09:17:11,193 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-23 09:20:27,665 [ 1] INFO  Unity: Common.Data.NpcDefine
-2024-08-23 09:20:27,666 [ 1] INFO  Unity: Common.Data.NpcDefine
-2024-08-23 09:20:27,666 [ 1] INFO  Unity: Common.Data.NpcDefine
-2024-08-23 09:20:27,667 [ 1] INFO  Unity: Common.Data.NpcDefine
-2024-08-23 09:20:39,850 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-23 09:20:39,852 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-26 15:42:30,059 [ 1] INFO  Unity: LoadingManager start
+2024-08-26 15:42:33,087 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-26 15:42:38,214 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
+2024-08-26 15:42:38,215 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-26 15:42:38,215 [ 1] INFO  Unity: DoConnect
+2024-08-26 15:42:38,217 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-26 15:42:38,218 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2024-08-26 15:42:38,220 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-26 15:42:38,287 [ 1] INFO  Unity: OnLogin:Success [None]
+2024-08-26 15:42:38,290 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-26 15:42:38,442 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-26 15:42:39,197 [ 1] INFO  Unity: Select Char:[1]tt[Warrior]
+2024-08-26 15:42:39,561 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2024-08-26 15:42:39,582 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2024-08-26 15:42:39,583 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
+2024-08-26 15:42:39,584 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
+2024-08-26 15:42:39,584 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
+2024-08-26 15:42:39,585 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
+2024-08-26 15:42:39,586 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2024-08-26 15:42:39,588 [ 1] INFO  Unity: AddCharacter:2:tt Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2024-08-26 15:42:39,590 [ 1] INFO  Unity: LoadLevel: MainCity
+2024-08-26 15:42:39,955 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2024-08-26 15:42:39,956 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2024-08-26 15:42:40,017 [ 1] WARN  Unity: UIMain[46348] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2024-08-26 15:42:40,018 [ 1] WARN  Unity: UIWorldElementManager[46368] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2024-08-26 15:42:40,018 [ 1] WARN  Unity: GameObjectManager[46598] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2024-08-26 15:42:40,020 [ 1] INFO  Unity: GameObject Created
+2024-08-26 15:42:40,022 [ 1] WARN  Unity: MainPlayerCamera[47336] Awake
+UnityEngine.Debug:LogWarningFormat(String, Object[])
+MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
+
+2024-08-26 15:42:40,042 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-26 15:42:40,044 [ 1] INFO  Unity: ---Start UIMinimap.cs
+2024-08-26 15:42:40,044 [ 1] INFO  Unity: ---before if.cs
+2024-08-26 15:42:40,045 [ 1] INFO  Unity: --- load resbuluzheng
+2024-08-26 15:42:40,045 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
+2024-08-26 15:42:40,045 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
+2024-08-26 15:43:39,499 [ 1] INFO  Unity: 20
+2024-08-26 15:43:41,423 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIIconItem.SetMainIcon (System.String iconName, System.String text) (at Assets/Scripts/UI/UIIconItem.cs:25)
+UIBag+<InitBags>c__Iterator0.MoveNext () (at Assets/Scripts/UI/Bag/UIBag.cs:42)
+UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+UIBag:Start() (at Assets/Scripts/UI/Bag/UIBag.cs:28)
+}</args></log4net.Error>
+2024-08-26 15:44:19,594 [ 1] INFO  Unity: Character_2_tt OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2024-08-26 15:44:34,555 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-08-26 15:44:34,555 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
 

@@ -33,4 +33,9 @@ public class UIMain : MonoSingleton<UIMain> {
     {
         UIManager.Instance.Show<UITest>();
     }
+
+    public void OnClickBag()
+    {
+        UIManager.Instance.Show<UIBag>();
+    }
 }
