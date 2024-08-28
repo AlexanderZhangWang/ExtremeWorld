@@ -1,64 +1,87 @@
-2024-08-26 16:06:51,489 [ 1] INFO  Unity: LoadingManager start
-2024-08-26 16:06:54,705 [ 1] INFO  Unity: DataManager > DataManager()
-2024-08-26 16:06:59,059 [ 1] INFO  Unity: UserLoginRequest::user :user001 psw:123
-2024-08-26 16:06:59,060 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-08-26 16:06:59,061 [ 1] INFO  Unity: DoConnect
-2024-08-26 16:06:59,062 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-08-26 16:06:59,063 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-28 09:56:08,383 [ 1] INFO  Unity: LoadingManager start
+2024-08-28 09:56:11,401 [ 1] INFO  Unity: DataManager > DataManager()
+2024-08-28 09:56:25,606 [ 1] INFO  Unity: UserLoginRequest::user :user001  psw:123
+2024-08-28 09:56:25,607 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-28 09:56:25,608 [ 1] INFO  Unity: DoConnect
+2024-08-28 09:56:25,609 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-28 09:56:25,611 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-08-26 16:06:59,065 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-08-26 16:06:59,129 [ 1] INFO  Unity: OnLogin:Success [None]
-2024-08-26 16:06:59,133 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-08-26 16:06:59,288 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-26 16:07:00,272 [ 1] INFO  Unity: Select Char:[1]tt[Warrior]
-2024-08-26 16:07:00,642 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
-2024-08-26 16:07:00,663 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2024-08-26 16:07:00,665 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
-2024-08-26 16:07:00,665 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
-2024-08-26 16:07:00,666 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
-2024-08-26 16:07:00,666 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
-2024-08-26 16:07:00,668 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2024-08-26 16:07:00,670 [ 1] INFO  Unity: AddCharacter:5:tt Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2024-08-26 16:07:00,673 [ 1] INFO  Unity: LoadLevel: MainCity
-2024-08-26 16:07:01,050 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2024-08-26 16:07:01,050 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
-
-2024-08-26 16:07:01,127 [ 1] WARN  Unity: UIMain[61904] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2024-08-26 16:07:01,127 [ 1] WARN  Unity: UIWorldElementManager[61924] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2024-08-26 16:07:01,128 [ 1] WARN  Unity: GameObjectManager[62154] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2024-08-26 16:07:01,130 [ 1] INFO  Unity: GameObject Created
-2024-08-26 16:07:01,132 [ 1] WARN  Unity: MainPlayerCamera[62892] Awake
-UnityEngine.Debug:LogWarningFormat(String, Object[])
-MonoSingleton`1:Awake() (at Assets/Scripts/Utilities/MonoSingleton.cs:23)
-
-2024-08-26 16:07:01,152 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-08-26 16:07:01,155 [ 1] INFO  Unity: ---Start UIMinimap.cs
-2024-08-26 16:07:01,155 [ 1] INFO  Unity: ---before if.cs
-2024-08-26 16:07:01,156 [ 1] INFO  Unity: --- load resbuluzheng
-2024-08-26 16:07:01,156 [ 1] INFO  Unity: ---Minimap transform (-99.0, -70.0, 0.0)
-2024-08-26 16:07:01,157 [ 1] INFO  Unity: ---Minimap transform (0.0, 0.0, 0.0)
-2024-08-26 16:07:02,184 [ 1] INFO  Unity: 20
-2024-08-26 16:07:02,186 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, UIIconItem.SetMainIcon (System.String iconName, System.String text) (at Assets/Scripts/UI/UIIconItem.cs:25)
-UIBag+<InitBags>c__Iterator0.MoveNext () (at Assets/Scripts/UI/Bag/UIBag.cs:42)
-UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-UIBag:Start() (at Assets/Scripts/UI/Bag/UIBag.cs:28)
-}</args></log4net.Error>
-2024-08-26 16:08:06,969 [ 1] INFO  Unity: Character_5_tt OnDestroy :ID:5 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2024-08-26 16:08:06,971 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-08-26 16:08:06,972 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-28 09:56:27,666 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:171)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:58)
+Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:136)
+UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:51)
+UnityEngine.EventSystems.EventSystem:Update()
+
+2024-08-28 09:56:27,671 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Services.UserService:ConnectToServer() (at Assets/Scripts/Services/UserService.cs:58)
+Services.UserService:SendLogin(String, String) (at Assets/Scripts/Services/UserService.cs:136)
+UILogin:OnClickLogin() (at Assets/Scripts/UI/UILogin.cs:51)
+UnityEngine.EventSystems.EventSystem:Update()
+
+2024-08-28 09:56:27,671 [ 1] INFO  Unity: DoConnect
+2024-08-28 09:56:27,672 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-28 09:56:27,672 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2024-08-28 09:56:29,724 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
+
+2024-08-28 09:56:29,725 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
+
+2024-08-28 09:56:29,730 [ 1] INFO  Unity: DoConnect
+2024-08-28 09:56:29,730 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-28 09:56:29,731 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2024-08-28 09:56:31,768 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:176)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:270)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
+
+2024-08-28 09:56:31,769 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:165)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:311)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:428)
+
+2024-08-28 09:56:31,770 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2024-08-28 09:59:25,872 [ 1] WARN  Unity: Assets/Scripts/GameObject/MainPlayerCamera.cs(8,19): warning CS0108: `MainPlayerCamera.camera' hides inherited member `UnityEngine.Component.camera'. Use the new keyword if hiding was intended
+
+2024-08-28 09:59:25,873 [ 1] WARN  Unity: Assets/Scripts/GameObject/NPCController.cs(12,25): warning CS0108: `NPCController.renderer' hides inherited member `UnityEngine.Component.renderer'. Use the new keyword if hiding was intended
+
+2024-08-28 09:59:25,873 [ 1] WARN  Unity: Assets/Scripts/GameObject/EntityController.cs(19,16): warning CS0649: Field `EntityController.rotation' is never assigned to, and will always have its default value
+
+2024-08-28 09:59:25,873 [ 1] WARN  Unity: Assets/Scripts/GameObject/EntityController.cs(22,16): warning CS0414: The private field `EntityController.lastRotation' is assigned but its value is never used
+
+2024-08-28 09:59:25,873 [ 1] WARN  Unity: Assets/Scripts/GameObject/PlayerInputController.cs(111,11): warning CS0414: The private field `PlayerInputController.lastSync' is assigned but its value is never used
+
+2024-08-28 09:59:25,873 [ 1] WARN  Unity: Assets/Editor/MapTools.cs(23,32): warning CS0219: The variable `allTeleporters' is assigned but its value is never used
 
