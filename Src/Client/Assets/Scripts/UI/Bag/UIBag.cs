@@ -58,12 +58,19 @@ public class UIBag : UIWindow
     public void OnReset()
     {
         BagManager.Instance.Reset();
-        slots = new List<Image>();
-        for (int page = 0; page < this.pages.Length; page++)
+        this.Clear();
+        StartCoroutine(InitBags());
+    }
+
+    void Clear()
+    {
+        for (int i = 0; i < slots.Count; i++)
         {
-            slots.AddRange(this.pages[page].GetComponentsInChildren<Image>(true));
+            if (slots[i].transform.childCount > 0)
+            {
+                Destroy(slots[i].transform.GetChild(0).gameObject);
+            }
         }
-        InitBags();
     }
 
 }
