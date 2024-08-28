@@ -79,7 +79,9 @@ public class NPCController : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Interactive();
+        if (!UIManager.Instance.isUIOpen)
+            Interactive();
+
     }
     private void OnMouseOver()
     {

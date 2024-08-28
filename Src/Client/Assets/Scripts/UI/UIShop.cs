@@ -45,6 +45,11 @@ public class UIShop : UIWindow
         this.description.text = shop.Description;
     }
 
+    public void UpdateMoneyUI()
+    {
+        this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
+    }
+
     private UIShopItem selectedItem;
     public void SelectShopItem(UIShopItem item)
     {

@@ -31,6 +31,7 @@ public class UIBag : UIWindow
     IEnumerator InitBags()
     {
         Debug.Log(BagManager.Instance.Items.Length);
+        money.text = User.Instance.CurrentCharacter.Gold.ToString();
         for (int i = 0; i < BagManager.Instance.Items.Length; i++)
         {
             var item = BagManager.Instance.Items[i];

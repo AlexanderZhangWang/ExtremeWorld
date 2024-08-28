@@ -20,12 +20,21 @@ namespace Managers
             return true;
         }
 
+        public UIShop uiShop;
+
+        public void UpdateShopMoneyUI()
+        {
+            if (uiShop != null){
+                uiShop.UpdateMoneyUI();
+            }
+        }
+
         public void ShowShop(int shopId)
         {
             ShopDefine shop;
             if (DataManager.Instance.Shops.TryGetValue(shopId, out shop))
             {
-                UIShop uiShop = UIManager.Instance.Show<UIShop>();
+                uiShop = UIManager.Instance.Show<UIShop>();
                 if (uiShop != null)
                 {
                     uiShop.SetShop(shop);

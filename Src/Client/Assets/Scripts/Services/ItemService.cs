@@ -1,4 +1,5 @@
-﻿using Network;
+﻿using Managers;
+using Network;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace Services
         {
             MessageDistributer.Instance.Unsubscribe<ItemBuyResponse>(this.OnItemBuy);
         }
-
+        
         public void SendBuyItem (int shopId, int shopItemId)
         {
             Debug.LogFormat("SendBuyItem:shop:{0}:itemId:{1}", shopId, shopItemId);
@@ -35,6 +36,8 @@ namespace Services
         private void OnItemBuy(object sender, ItemBuyResponse message)
         {
             MessageBox.Show("购买结果" + message.Result + "\n" + message.Errormsg, "购买完成");
+
+            ShopManager.Instance.UpdateShopMoneyUI();
         }
     }
 }
