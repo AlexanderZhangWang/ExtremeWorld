@@ -89,7 +89,7 @@ message NCharacterInfo {
 
 	repeated NItemInfo Items = 10;
 	NBagInfo Bag = 11;
-	bytes Equip = 12;
+	bytes Equips = 12;
 }
 
 message NItemInfo
