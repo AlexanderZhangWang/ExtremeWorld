@@ -23,6 +23,9 @@ public class UIManager : Singleton<UIManager>
         this.UIResource.Add(typeof(UIBag), new UIElement() { Resources = "UI/UIBag", Cache = false });
         this.UIResource.Add(typeof(UIShop), new UIElement() { Resources = "UI/UIShop", Cache = false });
         this.UIResource.Add(typeof(UICharEquip), new UIElement() { Resources = "UI/UICharEquip", Cache = false });
+        this.UIResource.Add(typeof(UIQuestSystem), new UIElement() { Resources = "UI/UIQuestSystem", Cache = false });
+        this.UIResource.Add(typeof(UIQuestDialog), new UIElement() { Resources = "UI/UIQuestDialog", Cache = false });
+
     }
 
     //UIManager()
@@ -33,6 +36,7 @@ public class UIManager : Singleton<UIManager>
 
     public T Show<T>()
     {
+        Debug.Log(isUIOpen + ": UIOpen to true");
         isUIOpen = true;
         //SoundManager.Instance.PlaySound("ui_open");
         Type type = typeof(T);
@@ -51,6 +55,7 @@ public class UIManager : Singleton<UIManager>
                     return default(T);
                 }
                 info.Instance = (GameObject)GameObject.Instantiate(prefab);
+                info.Instance.SetActive(true);
             }
             return info.Instance.GetComponent<T>();
         }
@@ -59,6 +64,7 @@ public class UIManager : Singleton<UIManager>
 
     public void Close(Type type)
     {
+        Debug.Log(isUIOpen + ": UIClose to false");
         isUIOpen = false;
         //SoundManager.Instance.PlaySound("ui_close");
         if (this.UIResource.ContainsKey(type))

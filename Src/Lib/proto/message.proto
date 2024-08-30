@@ -345,7 +345,6 @@ message ItemEquipResponse
 }
 
 // Quest System
-
 enum QUEST_STATUS
 {
 	IN_PROGRESS = 0;
@@ -384,4 +383,32 @@ message QuestListResponse
 message QuestAcceptRequest
 {
 	int32 quest_id = 1;
+}
+
+message QuestAcceptResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message QuestSubmitRequest
+{
+	int32 quest_id = 1;
+}
+
+message QuestSubmitResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message QuestAbandonRequest
+{
+	int32 quest_id = 1;
+}
+
+message QuestAbandontResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
 }

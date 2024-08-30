@@ -35,7 +35,7 @@ namespace Common.Data
         public QuestType Type { get; set; }
 
         public int AcceptNPC { get; set; }
-        public int Submit { get; set; }
+        public int SubmitNPC { get; set; }
 
         public string Overview { get; set; }
         public string Dialog { get; set; }
